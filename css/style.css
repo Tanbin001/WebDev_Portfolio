@@ -5,6 +5,7 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Otomanopee One', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
 * {
     margin: 0 0;
     padding: 0 0;
@@ -12,54 +13,122 @@ font-family: 'Roboto', sans-serif;
 
 body {
     color: dimgrey;
-
     background-color: rgb(73, 172, 172);
 }
-h1{
+
+h1 {
     /* font-family: 'Encode Sans SC', sans-serif; */
 }
-h2{
+
+h2 {
     /* font-family: 'Nunito', sans-serif; */
 }
-p{
-    font-family: 'Otomanopee One', sans-serif;
+
+p {
+    font-family: 'Nunito', sans-serif;
 }
-.intro h1{
-    font-size: 40px;
+
+.part-0 {
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.intro_bio {
+    padding: 40px 20px 0 0;
+    width: 50%;
+}
+
+.intro_bio a {
+    text-decoration: none;
+}
+
+.intro_bio a:hover {
+    font-style: normal;
+    cursor: pointer;
+    color: #057067;
+    font-style: italic;
+}
+
+.linkedin {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(233, 179, 79), rgb(238, 107, 84));
+    color: white;
+    padding: 10px 28px;
+    border-radius: 10px;
+}
+
+.linkedin:hover {
+    font-style: oblique;
+    color: black;
+}
+
+.intro_pic img {
+    margin-left: 20%;
+    width: 75%;
+}
+
+.intro_bio h1 {
+    font-size: 42px;
     font-weight: bolder;
 }
-intro h2{
-    font-size: 40px;
+
+.intro_bio h2 {
+    font-size: 30px;
     font-weight: bold;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
-.part-1{
+
+.hide-in {
+    display: none;
+}
+
+.intro_bio h2:hover+.hide-in {
+    display: block;
+    color: brown;
+}
+
+.intro_bio p {
+    color: dimgray;
+    text-align: justify;
+}
+
+.part-1 {
     padding-top: 40px;
     padding-bottom: 60px;
 }
-.first_h1{
+
+.first_h1 {
     font-size: 60px;
     font-weight: bold;
     padding-bottom: 60px;
 }
-.card{
 
+.card {
     transform: translateY(0px);
     transition: all 2s;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 0 20px 0 black;
     border-radius: 5%;
     transform: translateY(-50px);
     /* transition-property: transform;
     transition-duration: 5s; */
 }
-.cards-sec{
+
+.cards-sec {
     border-radius: 30px;
 }
-.card-title{
+
+.card-title {
     text-align: center;
 }
-.card-text{
+
+.card-text {
     text-align: justify;
 }
