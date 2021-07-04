@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Nunito:wght@300&family=Otomanopee+One&family=Roboto:wght@100&display=swap');
+/*
+font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    color: dimgrey;
+
+    background-color: rgb(73, 172, 172);
+}
+h1{
+    /* font-family: 'Encode Sans SC', sans-serif; */
+}
+h2{
+    /* font-family: 'Nunito', sans-serif; */
+}
+p{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.intro h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+intro h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.part-1{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.first_h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.card{
+
+    transform: translateY(0px);
+    transition: all 2s;
+}
+.card:hover{
+    box-shadow: 0 0 20px 0 black;
+    border-radius: 5%;
+    transform: translateY(-50px);
+    /* transition-property: transform;
+    transition-duration: 5s; */
+}
+.cards-sec{
+    border-radius: 30px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+}
