@@ -115,9 +115,13 @@ p {
     width: 50%;
 }
 
-.part-3 {}
+.part-3 {
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
 
-.part-3 p {
+.part-3 blockquote {
     text-align: justify;
 }
 
@@ -126,15 +130,31 @@ p {
 }
 
 .exp-1 {
-    box-sizing: border-box;
-    border: 1px solid dimgray;
-    padding: 0 30px;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 40px 65px;
+    box-shadow: 10px 10px 40px dimgray;
+    border-left: 10px solid rgb(238, 107, 84);
+}
+
+.clr {
+    height: 100%;
+    width: 10px;
+    background-color: firebrick;
 }
 
 .exp-2 {
-    box-sizing: border-box;
-    border: 1px solid dimgray;
-    padding: 0 30px;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 40px 65px;
+    box-shadow: 10px 10px 40px dimgray;
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-width: 10px;
+    border-image-source: linear-gradient(to top, rgb(47, 120, 230), rgb(15, 235, 132));
+    /* border-left: 10px solid rgb(44, 94, 233); */
 }
 
 .part-1 {
