@@ -207,7 +207,6 @@ footer {
     font-size: 12px;
 }
 
-.foot-2 ul li {
-    list-style: none;
-    display: inline;
+.foot-2 a {
+    text-align: right;
 }
