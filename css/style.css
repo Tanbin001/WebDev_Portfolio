@@ -29,6 +29,15 @@ p {
     font-family: 'Nunito', sans-serif;
 }
 
+.bg-clr {
+    background-image: linear-gradient(to right, rgb(233, 187, 102), rgb(189, 93, 76));
+}
+
+.nav_bar {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
 .part-0 {
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
@@ -209,13 +218,13 @@ footer {
     font-size: 12px;
 }
 
-.foot-1{
+.foot-1 {
     font-size: medium;
     font-weight: bolder;
 }
 
-.foot-2{
-    margin-left:auto;
+.foot-2 {
+    margin-left: auto;
 }
 
 .foot-2 a {
